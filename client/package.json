@@ -1,4 +1,5 @@
 {
+  "homepage": "https://uep-heroku.herokuapp.com/",
   "proxy": "http://localhost:3001/",
   "name": "uep-page",
   "version": "0.1.0",
