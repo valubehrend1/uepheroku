@@ -44,7 +44,7 @@ const FormPage = () => {
             formData.append(name, form[name]);
         }
 
-        fetch('/users/email', {
+        fetch('users/email', {
             mode: 'no-cors',
             method: 'POST',
             body: formData // JSON.stringify(form)
