@@ -1,0 +1,20 @@
+{
+    "title": {
+        "title": "EL GAS"
+    },
+
+    "subtitle": {
+        "subtitle": "A UN PRECIO JUSTO"
+    },
+
+    "parrafo1": {
+        "linea1": "Consiga hasta un 20% de ahorro en su factura de gas a través de nuestras tarifas fijas",
+        "linea2": "",
+        "linea2b": "o variables ",
+        "linea3": "a precio de mercado mayorista."
+    },
+
+    "button": {
+        "name": "CONTRATAR"
+    }
+}

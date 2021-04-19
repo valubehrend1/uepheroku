@@ -1,0 +1,59 @@
+#colabora {
+    background-color: #2C272B;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card.card-container {
+    border: none;
+}
+
+.product-title-colabora {
+    color: white;
+    font-size: 2.1rem;
+    font-family: 'Josefin Sans Bold';
+    margin-top: 50px;
+}
+
+.product-subtitle-colabora {
+    color: white;
+    font-size: 1.9rem;
+    font-family: 'Josefin Sans Light';
+    margin-top: -25px;
+}
+
+p.block-text-colabora.card-text, .block-text-colabora2 {
+    color: white;
+    font-size: 2.3vh;
+    font-family: 'Josefin Sans Light';
+    margin-top: 5px;
+}
+
+p.block-text-colabora2.card-text {
+    padding-top: 20px;
+}
+
+span.block-text-colabora.salto {
+    display: block;
+    margin: 0 0 10px 0;
+}
+
+.product-subtitle-colabora-small {
+    color: #FFAC42;
+    font-size: 2vh;
+    font-family: 'Josefin Sans Bold';
+}
+
+
+a.contact-btn.btn.btn-primary {
+    margin: 30px auto 50px;
+    font-family: 'Josefin Sans Bold';
+    font-size: 12px;
+    background-color: rgb(255, 172, 66);
+    border-color: rgb(255, 172, 66);
+    color: rgb(44, 39, 43);
+    padding: 10 20px;
+}

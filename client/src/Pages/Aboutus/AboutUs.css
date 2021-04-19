@@ -1,0 +1,63 @@
+
+
+#aboutUs {
+    background-color: #FFAC42;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card.card-container {
+    border: none;
+}
+
+.product-title-about {
+    color: #2C272B;
+    font-size: 2.1rem;
+    font-family: 'Josefin Sans Bold';
+    margin-top: 50px;
+    margin-bottom: 4px;
+}
+
+.product-subtitle-about {
+    color: #2C272B;
+    font-size: 1.9rem;
+    font-family: 'Josefin Sans Light';
+    margin-top: -20px;
+}
+
+p.product-subtitle-about.first-sub {
+    display: inline-block;
+}
+
+p.product-subtitle-about.second-sub {
+    display: inline-block;
+    color: #2C272B;
+    font-size: 1.9rem;
+    font-family: 'Josefin Sans Bold';
+    margin-left: 11px;
+}
+
+p.block-text-about.card-text, .block-text-about2 {
+    color: #2C272B;
+    font-size: 2vh;
+    font-family: 'Josefin Sans Light';
+    margin-top: 20px;
+}
+
+p.block-text-about2.card-text {
+    padding-top: 10px;
+}
+
+img.card-img.ondas-detail {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.product-subtitle-about-small {
+    color: white;
+    font-size: 2vh;
+    font-family: 'Josefin Sans Bold';
+}

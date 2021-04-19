@@ -1,0 +1,25 @@
+{
+    "title": {
+        "title": "ENERGÍA SOLAR"
+    },
+
+    "subtitle": {
+        "subtitle": "AHORRA Y COLABORA CON EL PLANETA"
+    },
+
+    "parrafo1": {
+        "linea1": "Ahorra y adopta un nuevo método de eficiencia energética.",
+        "linea2": "Dirigida a Pymes, Microempresas, sector industrial, instalaciones deportivas,",
+        "linea3": "grandes superficies, administradores de fincas y particulares."
+    },
+
+    "parrafo2": {
+        "linea1": "- Módulos fotovoltaicos",
+        "linea2": "- Instalación eléctrica general",
+        "linea3": "- Sistema de seguridad"
+    },
+
+    "button": {
+        "title": "CONTRATAR"
+    }
+}

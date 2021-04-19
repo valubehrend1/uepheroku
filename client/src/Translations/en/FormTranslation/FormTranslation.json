@@ -1,0 +1,47 @@
+{
+    "title": {
+        "title": "CONTACT US"
+    },
+
+    "subtitle": {
+        "subtitle": "THROUGH THIS FORM"
+    },
+
+    "placeholder": {
+        "nameForm": "NAME / COMPANY:",
+        "email": "PHONE:",
+        "phone": "TELÉFONO"
+    },
+
+    "dropdown": {
+        "value1": "WHAT ARE YOU LOOKING FOR?",
+        "value2": "I WANT TO COLLABORATE WITH UEP",
+        "value3": "COMMERCIAL INFORMATION"
+    },
+
+    "file": {
+        "value": "ATTACH"
+    },
+
+    "message": {
+        "asunto": "SUBJECT:"
+    },
+
+    "terms": {
+        "agree": "I have read and accept the ",
+        "privacy": " Privacy Policy",
+        "german": ""
+    },
+
+    "spinner": {
+        "carga": "Loading..."
+    },
+
+    "sent": {
+        "sent": "Your message was successfully delivered!"
+    },
+
+    "button": {
+        "name": "SEND"
+    }
+}

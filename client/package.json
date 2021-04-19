@@ -1,0 +1,35 @@
+{
+  "proxy": "http://localhost:3001",
+  "name": "uep-page",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "emailjs-com": "^2.6.4",
+    "i": "^0.3.6",
+    "i18next": "^20.1.0",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.5.1",
+    "react-classes": "^1.1.1",
+    "react-hook-form": "^7.1.0",
+    "react-i18next": "^11.8.11",
+    "react-pdf": "^5.2.0",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-router-hash-link": "^2.4.0",
+    "react-scripts": "1.1.5",
+    "react-scroll": "^1.8.2"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0",
+    "prettier": "2.2.1"
+  }
+}

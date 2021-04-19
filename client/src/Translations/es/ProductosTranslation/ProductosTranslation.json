@@ -1,0 +1,27 @@
+{
+    "title": {
+        "title": "LA LUZ",
+        "titleb":""
+    },
+
+    "subtitle": {
+        "subtitle": "ES SIMPLE... Y ES VERDE",
+        "subtitle2": ""
+    },
+
+    "parrafo": {
+        "linea1": "Encontramos en el mercado el mejor precio te ofrecemos los precios más convenientes",
+        "linea2": "del mercado. Nuestros servicios alcanzan a grandes empresas como hoteles, negocios y personas.",
+        "linea3": "Podrás gestionar nuevas altas o cambios en tu compañía de luz sin cortes, ni problemas.",
+        "linea4": "Garantizamos además las mejores condiciones de contratación. Sin permanencias, sin costos",
+        "linea5": "ocultos ni letra pequeña en tu nuevo contrato. ¡Las cosas como deben ser"
+    },
+
+    "footer": {
+        "text": "Y desde luego... solo energía 100% renovable."
+    },
+
+    "button": {
+        "title": "CONTRATAR"
+    }
+}

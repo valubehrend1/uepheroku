@@ -1,0 +1,21 @@
+{
+    "title": {
+        "title": "CONTACT US"
+    },
+    
+    "phone": {
+        "phone": "Phone",
+        "number": "+34 697 77 07 97"
+    },
+
+    "email": {
+        "email": "E-mail",
+        "address": "info@uep-es.com"
+    },
+
+    "policy": {
+        "warn": "Aviso Legal",
+        "private": "Política de Privacidad",
+        "cookies": "Política de Cookies"
+    }
+}

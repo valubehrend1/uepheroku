@@ -1,0 +1,50 @@
+.main-footer {
+    background-color: #2C272B;
+}
+
+.row.footer-contain {
+    padding-top: 7vh;
+    padding-bottom: 8vh;
+}
+
+.col-md-3.col-sm-7.col-xs-2 img {
+    width: 18vh;
+}
+
+@media (max-width: 768px) {
+    .col-md-3.col-sm-7.col-xs-2 img {
+      margin-bottom: 30px;
+    }
+  }
+
+li {
+    color: white;
+    font-family: 'Josefin Sans Regular';
+}
+
+
+.contact-list {
+    color: #FFAC42;
+    font-size: 2vh;
+    font-family: 'Josefin Sans Bold';
+    padding-bottom: 1vh;
+}
+
+.black-list {
+    font-family: 'Josefin Sans Bold';
+}
+
+.black-list a {
+    font-family: 'Josefin Sans Bold';
+    color: #FFFF;
+    text-decoration: none;
+}
+
+.black-list a:hover {
+    color: #FFAC42;
+}
+
+.list-unstyled li a img {
+    width: 3.5vh;
+    margin-top: 5px;
+}

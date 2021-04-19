@@ -1,0 +1,87 @@
+#productos {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#productos::before {
+    content:"";
+    background-image: url('../Images/fondoluz.png');
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+
+}
+
+.card.card-container {
+    border: none;
+    background: none;
+}
+
+img.card-img-top.image {
+    width: 15%;
+    margin: 42px 0 30px;
+}
+
+.product-title-luz {
+    font-family: 'Josefin Sans Bold';
+    font-size: 2.1rem;
+}
+
+@media (min-width: 1400) {
+    .product-title-luz {
+        font-size: 3.4rem;
+    }
+  }
+.product-subtitle-luz {
+    font-size: 1.9rem;
+    font-family: 'Josefin Sans Light';
+    margin-top: -20px;
+
+}
+
+.block-text-luz.card-text {
+    font-size: 2.3vh;
+    font-family: 'Josefin Sans Light';
+    margin-top: 20px;
+}
+
+.graphic-image.card-img-top{
+    width: 70%;
+    padding-top: 40px;
+}
+
+@media (max-width: 500px) {
+    .graphic-image.card-img-top {
+        width: 100%;
+    }
+  }
+
+.card-text.text-footer{
+    font-family: 'Josefin Sans Bold';
+    font-size: 2.3vh;
+    margin-top: -15px;
+}
+
+.hire-btn.btn.btn-primary {
+    margin: 0 auto;
+    background-color: #FFAC42;
+    border-color: #FFAC42;
+    border-radius: 8px;
+    color: rgb(44, 39, 43);
+    font-family: 'Josefin Sans Bold';
+    font-size: 12px;
+}
+
+a.hire-btn.btn.btn-primary {
+    margin: 30px auto 70px;
+    background-color: #FFAC42;
+    border-color: #FFAC42;
+}
+

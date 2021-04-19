@@ -1,0 +1,47 @@
+{
+    "title": {
+        "title": "ESCRÍBENOS"
+    },
+
+    "subtitle": {
+        "subtitle": "LLENANDO ESTE FORMULARIO"
+    },
+
+    "placeholder": {
+        "nameForm": "NOMBRE/EMPRESA",
+        "email": "E-MAIL",
+        "phone": "TELÉFONO"
+    },
+
+    "dropdown": {
+        "value1": "¿QUÉ ESTÁS BUSCANDO?",
+        "value2": "QUIERO AHORRAR",
+        "value3": "QUIERO COLABORAR"
+    },
+
+    "file": {
+        "value": "ADJUNTAR"
+    },
+
+    "message": {
+        "asunto": "ASUNTO"
+    },
+
+    "terms": {
+        "agree": "He leído y acepto la ",
+        "privacy": " Política de Privacidad",
+        "german": ""
+    },
+
+    "spinner": {
+        "carga": "Cargando..."
+    },
+
+    "sent": {
+        "sent": "¡Formulario enviado con éxito!"
+    },
+
+    "button": {
+        "name": "ENVIAR"
+    }
+}

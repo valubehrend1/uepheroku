@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&family=Roboto:wght@300&display=swap');
+
+.text-center.card {
+    border: none;
+}
+
+.card-body.body {
+    background-color: rgb(255, 172, 66);
+    color: black;
+}
+
+.product-title.card-title {
+    font-size: 1.8rem;
+}
+
+.card-text {
+    font-family: 'Josefin Sans Light';
+    font-size: 4.4vh;
+    margin-top: 3rem;
+    color: rgb(44, 39, 43);
+}
+
+@media (min-width: 1728px) {
+    .card-text {
+     margin: 1.5rem;
+     font-size: 4.6vh;
+
+    }
+  }
+
+@media (max-width: 1001px) {
+    .card-text {
+     font-size: 4.6vh;
+    }
+  }
+  @media (max-width: 426px) {
+    .card-text {
+     font-size: 4vh;
+    }
+  }
+
+p.card-text.bold-text{
+    font-family: 'Josefin Sans Bold';
+    margin-top: -15px;
+}
+
+.save-button {
+    display: inline-block;
+    border: 1px solid #2C272B;
+    padding: 0.9vw;
+    background-color: #2C272B;
+    color: white;
+    border-radius: 12px;
+    font-family: 'Josefin Sans Bold';
+    color: white;
+    font-size: 1em;
+    margin-top: 1rem;
+    margin-bottom: 3.5rem;
+}
+
+@media (max-width: 426px) {
+    .save.button {
+     font-size: 3.2vh;
+    }
+}

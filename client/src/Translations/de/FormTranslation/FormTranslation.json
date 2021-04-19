@@ -1,0 +1,47 @@
+{
+    "title": {
+        "title": "SCHREIBEN SIE UNS!"
+    },
+
+    "subtitle": {
+        "subtitle": "DURCH DIESES KONTAKTFORMULAR"
+    },
+
+    "placeholder": {
+        "nameForm": "NAME / UNTERNEHMEN:",
+        "email": "E-MAIL-ADRESSE:",
+        "phone": "TELEFON:"
+    },
+
+    "dropdown": {
+        "value1": "WAS SUCHEN SIE?",
+        "value2": "ALS VERTRIEBSPARTNER ",
+        "value3": "MARKTINFORMATIONEN"
+    },
+
+    "file": {
+        "value": "Aufladen"
+    },
+
+    "message": {
+        "asunto": "BETREFF:"
+    },
+
+    "terms": {
+        "agree": "Ich habe die ",
+        "privacy": " Datenschutzerklärung ",
+        "german": "gelesen und akzeptiere sie"
+    },
+
+    "spinner": {
+        "carga": "Wird geladen..."
+    },
+
+    "sent": {
+        "sent": "Formular erfolgreich abgeschickt!"
+    },
+
+    "button": {
+        "name": "SENDEN"
+    }
+}

@@ -1,0 +1,60 @@
+#gas {
+    background-image: url('../Images/fondogas.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 550px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img.card-img-top.image.fire-img {
+    width: 24%;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.card.card-container {
+    border: none;
+}
+
+.product-title-gas {
+    color: white;
+    font-size: 2.1rem;
+    font-family: 'Josefin Sans Bold';
+    margin-top: -5px;
+}
+
+.product-subtitle-gas {
+    color: white;
+    font-size: 1.7rem;
+    font-family: 'Josefin Sans Light';
+    margin-top: -20px;
+}
+
+p.block-text-gas.card-text {
+    color: white;
+    font-size: 2.3vh;
+    font-family: 'Josefin Sans Light';
+    margin-top: 20px;
+}
+
+
+.hire-btn.btn.btn-primary.gas {
+    margin: 0 auto;
+    background-color: #FFAC42;
+    border-color: #FFAC42;
+    border-radius: 8px;
+    color: rgb(44, 39, 43);
+    font-family: 'Josefin Sans Bold';
+    font-size: 12px;
+}
+
+a.hire-btn.btn.btn-primary.gas {
+    margin: 30px auto;
+    margin-bottom: 120px;
+    background-color: #FFAC42;
+    border-color: #FFAC42;
+}
