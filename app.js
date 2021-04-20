@@ -34,14 +34,4 @@ app.get('*', (req, res) => {
     res.sendFile(path.resolve(__dirname, './client/build', 'index.html'));
   });
 
-//Error Handler function
-// app.use(function(err, req,res,next) {
-//     res.locals.message = err.message;
-//     res.locals.error = req.app.get('env') === 'development' ? err : {};
-
-//     res.sendStatus(err.status || 500);
-//     res.json({message:'Ha ocurrido un error'});
-// });
-// //
-
 app.listen(process.env.PORT || 3001);
