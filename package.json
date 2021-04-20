@@ -19,17 +19,13 @@
     "nodemon": "^2.0.7"
   },
   "dependencies": {
-    "@heroku/buildpack-registry": "^1.0.1",
     "async-file": "^2.0.2",
     "body-parser": "^1.19.0",
-    "cli-ux": "^4.9.3",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-fileupload": "^1.2.1",
     "got": "^9.6.0",
-    "heroku": "^7.2.0",
-    "heroku-cli": "^7.0.9",
     "multer": "^1.4.2",
     "nodemailer": "^6.5.0",
     "phoenix": "^1.5.8",
