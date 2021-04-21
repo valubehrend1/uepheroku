@@ -27,15 +27,6 @@
     margin-bottom: 20px;
 }
 
-@media (max-width: 580px) {
-    .product-title-about {
-        margin-bottom: 20px;
-    }
-    .product-subtitle-about {
-        margin-bottom: -5px;
-    }
-}
-
 p.product-subtitle-about.first-sub {
     display: inline-block;
 }
@@ -46,6 +37,12 @@ p.product-subtitle-about.second-sub {
     font-size: 1.9rem;
     font-family: 'Josefin Sans Bold';
     margin-left: 11px;
+}
+
+@media (max-width: 580px) {
+    .product-title-about {
+        margin-bottom: 20px;
+    }
 }
 
 p.block-text-about.card-text,
