@@ -9,8 +9,8 @@
 
     "placeholder": {
         "nameForm": "NAME / COMPANY:",
-        "email": "PHONE:",
-        "phone": "TELÉFONO"
+        "email": "EMAIL:",
+        "phone": "PHONE"
     },
 
     "dropdown": {
