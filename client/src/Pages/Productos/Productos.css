@@ -7,7 +7,7 @@
 }
 
 #productos::before {
-    content:"";
+    content: "";
     background-image: url('../Images/fondoluz.png');
     opacity: 0.5;
     top: 0;
@@ -15,8 +15,7 @@
     bottom: 0;
     right: 0;
     position: absolute;
-    z-index: -1;   
-
+    z-index: -1;
 }
 
 .card.card-container {
@@ -38,12 +37,12 @@ img.card-img-top.image {
     .product-title-luz {
         font-size: 3.4rem;
     }
-  }
+}
+
 .product-subtitle-luz {
     font-size: 1.9rem;
     font-family: 'Josefin Sans Light';
     margin-top: -20px;
-
 }
 
 .block-text-luz.card-text {
@@ -52,7 +51,7 @@ img.card-img-top.image {
     margin-top: 20px;
 }
 
-.graphic-image.card-img-top{
+.graphic-image.card-img-top {
     width: 70%;
     padding-top: 40px;
 }
@@ -61,9 +60,9 @@ img.card-img-top.image {
     .graphic-image.card-img-top {
         width: 100%;
     }
-  }
+}
 
-.card-text.text-footer{
+.card-text.text-footer {
     font-family: 'Josefin Sans Bold';
     font-size: 2.3vh;
     margin-top: -15px;
@@ -79,9 +78,8 @@ img.card-img-top.image {
     font-size: 12px;
 }
 
-a.hire-btn.btn.btn-primary {
-    margin: 30px auto 70px;
+a.hire-btn.btn.btn-primary.luz {
+    margin: 30px auto 50px;
     background-color: #FFAC42;
     border-color: #FFAC42;
 }
-

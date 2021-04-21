@@ -26,22 +26,18 @@ const Menu = () => {
                     <Nav className="mr-auto">
                         <MenuOption
                             className='nav-right'
-                            href='#productos'
                             onClick={() => scroller.scrollTo('productos', { smooth: true, offset: -95, duration: 2000, })}
                             label={t('MenuTranslation:nav.title')} />
                         <MenuOption
                             className='nav-right'
-                            href='#aboutUs'
                             onClick={() => scroller.scrollTo('aboutUs', { smooth: true, offset: -100, duration: 2000, })}
                             label={t('MenuTranslation:nav2.title')} />
                         <MenuOption
                             className='nav-right'
-                            href='#colabora'
                             onClick={() => scroller.scrollTo('colabora', { smooth: true, offset: -100, duration: 2000, })}
                             label={t('MenuTranslation:nav3.title')} />
                         <MenuOption
                             className="nav-right hire-class"
-                            href='#form'
                             onClick={() => scroller.scrollTo('form', { smooth: true, offset: -100, duration: 2000, })}
                             label={t('MenuTranslation:nav4.title')} />
                     </Nav>

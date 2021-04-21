@@ -41,7 +41,7 @@ const AboutUs = () => {
                         {t('parrafo4.linea5')}<span className='bold-type'>{t('parrafo4.linea5b')}</span><br />
                         {t('parrafo4.linea6')}
                     </Card.Text>
-                    <Card.Img className='ondas-detail' src={require('../Images/ondas.png')} />
+                    <Card.Img className='ondas-detail dos' src={require('../Images/ondas.png')} />
                     <p className='product-subtitle-about-small'><span className='bold-type'>{t('subtitle-about2.subtitle')}</span></p>
                     <Card.Text className='block-text-about2'>
                         <span className='bold-type'>1.</span><br />
@@ -77,7 +77,7 @@ const AboutUs = () => {
                         <span className='bold-type'>{t('parrafo8.linea6')}</span>
                     </Card.Text>
                     <Card.Text className='block-text-about2'>
-                        <span className='bold-type'>{t('footer-text.title')}</span>
+                        <span className='bold-type last'>{t('footer-text.title')}</span>
                     </Card.Text>
                 </Card.Body>
             </Card>

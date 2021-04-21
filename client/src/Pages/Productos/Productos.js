@@ -30,7 +30,7 @@ const Productos = () => {
                     <Card.Text className='text-footer'>{t('footer.text')}</Card.Text>
                     <Card.Img className='graphic-image' variant='top' src={require('../Images/luz-graficoespañol.png')} />
                 </Card.Body>
-                <Button href='#form' className='hire-btn' onClick={() => scroller.scrollTo('form', { smooth: true, offset: -100, duration: 1100, })}>{t('button.title')}</Button>
+                <Button href='#form' className='hire-btn luz' onClick={() => scroller.scrollTo('form', { smooth: true, offset: -100, duration: 1100, })}>{t('button.title')}</Button>
             </Card>
 
         </div>

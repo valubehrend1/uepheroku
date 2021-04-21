@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&family=Roboto:wght@300&display=swap');
-
 .text-center.card {
     border: none;
 }
@@ -22,24 +21,24 @@
 
 @media (min-width: 1728px) {
     .card-text {
-     margin: 1.5rem;
-     font-size: 4.6vh;
-
+        margin: 1.5rem;
+        font-size: 4.6vh;
     }
-  }
+}
 
 @media (max-width: 1001px) {
     .card-text {
-     font-size: 4.6vh;
+        font-size: 4.6vh;
     }
-  }
-  @media (max-width: 426px) {
-    .card-text {
-     font-size: 4vh;
-    }
-  }
+}
 
-p.card-text.bold-text{
+@media (max-width: 426px) {
+    .card-text {
+        font-size: 4vh;
+    }
+}
+
+p.card-text.bold-text {
     font-family: 'Josefin Sans Bold';
     margin-top: -15px;
 }
@@ -47,7 +46,7 @@ p.card-text.bold-text{
 .save-button {
     display: inline-block;
     border: 1px solid #2C272B;
-    padding: 0.9vw;
+    padding: 8px;
     background-color: #2C272B;
     color: white;
     border-radius: 12px;
@@ -60,6 +59,6 @@ p.card-text.bold-text{
 
 @media (max-width: 426px) {
     .save.button {
-     font-size: 3.2vh;
+        font-size: 3.2vh;
     }
 }

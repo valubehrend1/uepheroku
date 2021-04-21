@@ -7,33 +7,25 @@
 }
 
 #energiaSolar::before {
-    content:"";
+    content: "";
     background-image: url('../Images/fondoenergia.png');
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 500px;
     opacity: 0.8;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
     position: absolute;
-    z-index: -1;   }
-
-@media (max-width: 330px) {
-    #energiaSolar {
-        margin-bottom: 50px;
-        margin-top: 30px;
-    }
-  }
+    z-index: -1;
+}
 
 img.card-img-top.image.energia-img {
     width: 24%;
     margin-bottom: 20px;
     margin-top: 40px;
 }
-
 
 .card.card-container {
     border: none;
@@ -76,9 +68,9 @@ p.block-text-energia-black.card-text {
     padding: 10 20px;
 }
 
-a.hire-btn.btn.btn-primary.gas {
+a.hire-btn.energia.btn.btn-primary {
     margin: 30px auto;
-    margin-bottom: 120px;
+    margin-bottom: 50px;
     background-color: #FFAC42;
     border-color: #FFAC42;
 }
