@@ -1,5 +1,3 @@
-
-
 #aboutUs {
     background-color: #FFAC42;
     width: 100%;
@@ -40,9 +38,10 @@ p.product-subtitle-about.second-sub {
     margin-left: 11px;
 }
 
-p.block-text-about.card-text, .block-text-about2 {
+p.block-text-about.card-text,
+.block-text-about2 {
     color: #2C272B;
-    font-size: 2vh;
+    font-size: 2.2vh;
     font-family: 'Josefin Sans Light';
     margin-top: 20px;
 }
