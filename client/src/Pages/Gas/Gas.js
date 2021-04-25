@@ -26,7 +26,7 @@ const Gas = () => {
                             {t('parrafo1.linea3')}
                         </span>
                     </Card.Text>
-                <Button href='#form' className='hire-btn gas btn-custom' onClick={() => scroller.scrollTo('form', { smooth: true, offset: -100, duration: 1100, })}>{t('button.name')}</Button>
+                <Button href='#form' className='hire-btn gas btn-custom' onClick={() => scroller.scrollTo('form', { smooth: true, offset: -155, duration: 1100, })}>{t('button.name')}</Button>
             </Card>
 
         </div>

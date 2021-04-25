@@ -22,9 +22,14 @@
 }
 
 img.card-img-top.image.energia-img {
-    width: 24%;
-    margin-bottom: 20px;
-    margin-top: 40px;
+    width: 160px;
+    margin: 30px 0 50px;
+}
+
+@media (max-width: 600px) {
+    img.card-img-top.image.energia-img {
+        width: 135px;
+    }
 }
 
 .card.card-container {
@@ -33,44 +38,39 @@ img.card-img-top.image.energia-img {
 
 .product-title-energia {
     color: #2C272B;
-    font-size: 2.1rem;
-    font-family: 'Josefin Sans Bold';
-    margin-top: 15px;
+    font-size: 30px;
+    margin: 0px;
 }
 
 .product-subtitle-energia {
     color: #2C272B;
-    font-size: 1.7rem;
+    font-size: 30px;
     font-family: 'Josefin Sans Light';
-    margin-top: -20px;
+    margin: 0px;
+    line-height: 1.3;
 }
 
 p.block-text-energia.card-text {
     color: #2C272B;
-    font-size: 2.3vh;
+    font-size: 17px;
     font-family: 'Josefin Sans Light';
     margin-top: 20px;
 }
 
 p.block-text-energia-black.card-text {
     color: #2C272B;
-    font-size: 2.3vh;
-    font-family: 'Josefin Sans Bold';
+    font-size: 17px;
     margin-top: 20px;
 }
 
 .hire-btn.btn.btn-primary {
-    margin: 0 auto;
-    background-color: rgb(255, 172, 66);
-    border-color: rgb(255, 172, 66);
+    background-color: #FFAC42;
+    border-color: #FFAC42;
+    border-radius: 8px;
     color: rgb(44, 39, 43);
-    font-family: 'Josefin Sans Bold';
-    padding: 12px 20px 8px;
+    font-size: 12px;
 }
 
 a.hire-btn.energia.btn.btn-primary {
-    margin: 30px auto;
-    margin-bottom: 50px;
-    background-color: #FFAC42;
-    border-color: #FFAC42;
+    margin: 20px 0 50px;
 }

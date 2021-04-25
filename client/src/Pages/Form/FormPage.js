@@ -57,7 +57,7 @@ const FormPage = () => {
     }
     return (
         <Container className="form-container" id="form">
-            <p className='product-title-form'>{t('title.title')}</p>
+            <p className='product-title-form bold-type'>{t('title.title')}</p>
             <p className='product-subtitle-form'>{t('subtitle.subtitle')}</p>
 
             <Alert variant={'success'} show={show} data-dismiss="alert">
