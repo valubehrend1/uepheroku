@@ -11,6 +11,7 @@ import Colabora from './Pages/Colabora/Colabora';
 import Footer from './Pages/Footer/Footer';
 
 import './App.css';
+import Whatsapp from './Pages/Whatsapp/Whatsapp';
 
 
 class App extends Component {
@@ -18,6 +19,7 @@ class App extends Component {
 
     return (
       <div className="App">
+        <Whatsapp />
         <Menu />
         <Header />
         <Productos />

@@ -33,7 +33,7 @@ img.card-img-top.image {
     font-size: 2.1rem;
 }
 
-@media (min-width: 1400) {
+@media (min-width: 1400px) {
     .product-title-luz {
         font-size: 3.4rem;
     }

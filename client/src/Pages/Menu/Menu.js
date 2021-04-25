@@ -17,7 +17,7 @@ const Menu = () => {
                 <Navbar.Brand
                     href="#home"
                     onClick={() => scroller.scrollTo('header', { smooth: true, offset: -150, duration: 1000, })}>
-                    <img src={require('../Images/logo.png')}
+                    <img src={require('../Images/uepnegro.svg')}
                         alt=""
                         width="120" />
                 </Navbar.Brand>

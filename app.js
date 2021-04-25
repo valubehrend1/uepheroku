@@ -1,20 +1,22 @@
 const express = require('express');
 const app = express();
+var secure = require('ssl-express-www');
 
 const path = require('path');
 
+app.use(secure);
 
 app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
 
 
-app.use(function (req, res, next) {
+app.use(function(req, res, next) {
     res.setHeader('Access-Control-Allow-Origin', '*');
     res.setHeader('Access-Control-Allow-Methods', 'GET, POST, DELETE, PUT');
     next();
 });
 
-app.options('/*', function (req, res, next) {
+app.options('/*', function(req, res, next) {
     res.header('Access-Control-Allow-Origin', '*');
     res.header('Access-Control-Allow-Methods', 'GET, POST, DELETE, PUT');
     res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization, Content-Length, X-Requested-With, x-acces-token');
@@ -32,6 +34,6 @@ app.use('/users', usersRouter);
 // All other GET requests not handled before will return our React app
 app.get('*', (req, res) => {
     res.sendFile(path.resolve(__dirname, './client/build', 'index.html'));
-  });
+});
 
 app.listen(process.env.PORT || 3001);
