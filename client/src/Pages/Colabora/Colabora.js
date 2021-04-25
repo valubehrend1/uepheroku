@@ -39,7 +39,7 @@ const Colabora = () => {
                         <span className='bold-type'>{t('parrafo1.linea4')}</span>
                     </Card.Text>
                 </Card.Body>
-                <Button href='#form' className='contact-btn' onClick={() => scroller.scrollTo('form', { smooth: true, offset: -100, duration: 1100, })}>{t('button.title')}</Button>
+                <Button href='#form' className='contact-btn btn-custom' onClick={() => scroller.scrollTo('form', { smooth: true, offset: -100, duration: 1100, })}>{t('button.title')}</Button>
             </Card>
         </div>
     );

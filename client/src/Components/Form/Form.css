@@ -92,7 +92,7 @@ select#formGridState.form-control {
 }
 
 select:focus {
-    background: yellow
+    box-shadow: none;
   }
 
 textarea#formBasicasunto.form-control {

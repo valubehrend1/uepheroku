@@ -21,9 +21,21 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: Raleway;
 }
 
 .bold-type {
   font-family: 'Josefin Sans Bold';
+}
+
+.btn.btn-custom {
+  transition: 0.2s ease-in-out;
+}
+
+.btn.btn-custom:hover {
+  opacity: 0.8;
+}
+
+input.form-control, select.form-control, textarea.form-control {
+  font-size: 15px;
+  padding: 10px 12px 6px;
 }

@@ -28,7 +28,7 @@ const EnergiaSolar = () => {
                         {t('parrafo2.linea3')}
                     </Card.Text>
                 </Card.Body>
-                <Button href='#form' className='hire-btn energia' onClick={() => scroller.scrollTo('form', { smooth: true, offset: -100, duration: 1100, })}>{t('button.title')}</Button>
+                <Button href='#form' className='hire-btn energia btn-custom' onClick={() => scroller.scrollTo('form', { smooth: true, offset: -100, duration: 1100, })}>{t('button.title')}</Button>
             </Card>
 
         </div>

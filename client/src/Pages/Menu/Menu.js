@@ -41,15 +41,17 @@ const Menu = () => {
                             onClick={() => scroller.scrollTo('form', { smooth: true, offset: -100, duration: 2000, })}
                             label={t('MenuTranslation:nav4.title')} />
                     </Nav>
-                    <Nav>
+                    <Nav className="navbar-nav-languages">
                         <MenuOption
                             className='language'
-                            label="EN /"
+                            label="EN"
                             onClick={() => i18n.changeLanguage("en")} />
+                        <span className="slash">/</span>
                         <MenuOption
                             className='language'
-                            label="ES /"
+                            label="ES"
                             onClick={() => i18n.changeLanguage("es")} />
+                        <span className="slash">/</span>
                         <MenuOption
                             className='language'
                             label="DE"

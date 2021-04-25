@@ -33,6 +33,7 @@ const Footer = () => {
                     </div>
                     <div className='col-md-3 col-sm-6'>
                         <ul className='list-unstyled'>
+                            <li className='contact-list'></li>
                             <li><br /> </li>
                             <li className='black-list'><a rel="nofollow" href={AvisoLegal} target="_blank">{t('policy.warn')}</a></li>
                             <li className='black-list'><a rel="nofollow" href={PoliticaDeDatos} target="_blank">{t('policy.private')}</a></li>
