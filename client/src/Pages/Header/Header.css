@@ -5,11 +5,11 @@
 
 .card-body.header-body {
     background-color: rgb(255, 172, 66);
-    line-height: 1;
 }
 
 .card-text.title {
     margin-top: 35px;
+    margin-bottom: 0px;
     font-family: 'Josefin Sans Light';
 }
 
@@ -35,7 +35,13 @@
 @media (max-width: 426px) {
     .card-text.bold-type,
     .card-text.title {
-        font-size: 25px;
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 426px) {
+    .card-text.title {
+        margin-bottom: 6px;
     }
 }
 

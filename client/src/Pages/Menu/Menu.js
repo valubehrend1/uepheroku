@@ -17,28 +17,28 @@ const Menu = () => {
                 <Navbar.Brand
                     href="#home"
                     onClick={() => scroller.scrollTo('header', { smooth: true, offset: -150, duration: 1000, })}>
-                    <img src={require('../Images/uepnegro.svg')}
+                    <img src={require('../Images/uepnegro1.svg')}
                         alt=""
-                        width="120" />
+                        width="120px" />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav " />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto">
                         <MenuOption
                             className='nav-right'
-                            onClick={() => scroller.scrollTo('productos', { smooth: true, offset: -95, duration: 2000, })}
+                            onClick={() => scroller.scrollTo('productos', { smooth: true, offset: -120, duration: 1700, })}
                             label={t('MenuTranslation:nav.title')} />
                         <MenuOption
                             className='nav-right'
-                            onClick={() => scroller.scrollTo('aboutUs', { smooth: true, offset: -100, duration: 2000, })}
+                            onClick={() => scroller.scrollTo('aboutUs', { smooth: true, offset: -128, duration: 1700, })}
                             label={t('MenuTranslation:nav2.title')} />
                         <MenuOption
                             className='nav-right'
-                            onClick={() => scroller.scrollTo('colabora', { smooth: true, offset: -100, duration: 2000, })}
+                            onClick={() => scroller.scrollTo('colabora', { smooth: true, offset: -125, duration: 1700, })}
                             label={t('MenuTranslation:nav3.title')} />
                         <MenuOption
                             className="nav-right hire-class"
-                            onClick={() => scroller.scrollTo('form', { smooth: true, offset: -100, duration: 2000, })}
+                            onClick={() => scroller.scrollTo('form', { smooth: true, offset: -150, duration: 1700, })}
                             label={t('MenuTranslation:nav4.title')} />
                     </Nav>
                     <Nav className="navbar-nav-languages">

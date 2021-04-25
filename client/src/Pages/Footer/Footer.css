@@ -3,31 +3,30 @@
 }
 
 .row.footer-contain {
-    padding-top: 7vh;
-    padding-bottom: 8vh;
+    padding-top: 50px;
+    padding-bottom: 60px;
 }
 
 .col-md-3.col-sm-7.col-xs-2 img {
-    width: 100%;
+    width: 120px;
 }
 
 @media (max-width: 768px) {
     .col-md-3.col-sm-7.col-xs-2 img {
-      margin-bottom: 30px;
+        margin-bottom: 32px;
     }
-  }
+}
 
 li {
     color: white;
     font-family: 'Josefin Sans Regular';
 }
 
-
 .contact-list {
     color: #FFAC42;
-    font-size: 2vh;
+    font-size: 18px;
     font-family: 'Josefin Sans Bold';
-    padding-bottom: 1vh;
+    padding-bottom: 9px;
 }
 
 .black-list {
@@ -45,6 +44,16 @@ li {
 }
 
 .list-unstyled li a img {
-    width: 3.5vh;
+    width: 28px;
     margin-top: 5px;
+}
+
+div.col-md-3.col-sm-6.politicas {
+    padding-top: 34px;
+}
+
+@media (max-width: 575.9px) {
+    div.col-md-3.col-sm-6.politicas {
+        padding-top: 0;
+    }
 }

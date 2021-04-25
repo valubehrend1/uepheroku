@@ -15,7 +15,7 @@ const Gas = () => {
         <div className="gas" id="gas">
             <Card className='card-container'>
                     <Card.Img className='image gas-img' variant='top' src={require('../Images/fuego.png')} />
-                    <p className='product-title-gas'>{t('title.title')}</p>
+                    <p className='product-title-gas bold-type'>{t('title.title')}</p>
                     <p className='product-subtitle-gas'>{t('subtitle.subtitle')}</p>
                     <Card.Text className='block-text-gas'>
                         {t('parrafo1.linea1')}
@@ -26,7 +26,7 @@ const Gas = () => {
                             {t('parrafo1.linea3')}
                         </span>
                     </Card.Text>
-                <Button href='#form' className='hire-btn gas btn-custom' onClick={() => scroller.scrollTo('form', { smooth: true, offset: -100, duration: 1100, })}>{t('button.name')}</Button>
+                <Button href='#form' className='hire-btn gas btn-custom' onClick={() => scroller.scrollTo('form', { smooth: true, offset: -155, duration: 1100, })}>{t('button.name')}</Button>
             </Card>
 
         </div>

@@ -18,7 +18,7 @@ const Productos = () => {
             <Card className='card-container'>
                 <Card.Body>
                     <Card.Img className='image' variant='top' src={require('../Images/rayo.png')} />
-                    <p className='product-title-luz'>{t('title.title')}<br/>{t('title.titleb')}</p>
+                    <p className='product-title-luz bold-type'>{t('title.title')}<br/>{t('title.titleb')}</p>
                     <p className='product-subtitle-luz'>{t('subtitle.subtitle')} <br/>{t('subtitle.subtitle2')}</p>
                     <Card.Text className='block-text-luz'>
                         {t('parrafo.linea1')}<br />
@@ -30,7 +30,7 @@ const Productos = () => {
                     <Card.Text className='text-footer'>{t('footer.text')}</Card.Text>
                     <Card.Img className='graphic-image' variant='top' src={require('../Images/luz-graficoespañol.png')} />
                 </Card.Body>
-                <Button href='#form' className='hire-btn luz btn-custom' onClick={() => scroller.scrollTo('form', { smooth: true, offset: -100, duration: 1100, })}>{t('button.title')}</Button>
+                <Button href='#form' className='hire-btn luz btn-custom' onClick={() => scroller.scrollTo('form', { smooth: true, offset: -155, duration: 1100, })}>{t('button.title')}</Button>
             </Card>
 
         </div>
