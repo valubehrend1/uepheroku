@@ -24,8 +24,8 @@
 }
 
 img.card-img-top.image {
-    width: 115px;
-    margin: 28px 0 30px;
+    width: 105px;
+    margin: 28px 0 35px;
 }
 
 @media (max-width: 600px) {
@@ -34,42 +34,42 @@ img.card-img-top.image {
     }
 }
 
-.product-title-luz {
-    font-family: 'Josefin Sans Bold';
-    font-size: 35px;
+p.product-title-luz {
+    font-size: 30px;
+    margin: 0px;
 }
 
-.product-subtitle-luz {
-    font-size: 1.9rem;
+p.product-subtitle-luz {
+    font-size: 30px;
     font-family: 'Josefin Sans Light';
-    margin-top: -20px;
+    margin: 0px;
+    line-height: 1.3;
 }
 
 .block-text-luz.card-text {
-    font-size: 2.3vh;
+    font-size: 18px;
     font-family: 'Josefin Sans Light';
     margin-top: 20px;
 }
 
 .graphic-image.card-img-top {
-    width: 70%;
-    padding-top: 40px;
+    width: 550px;
+    margin-top: 40px;
+    margin-bottom: 25px;
 }
 
-@media (max-width: 500px) {
+.card-text.text-footer {
+    font-family: 'Josefin Sans Bold';
+    font-size: 18px;
+}
+
+@media (max-width: 620px) {
     .graphic-image.card-img-top {
         width: 100%;
     }
 }
 
-.card-text.text-footer {
-    font-family: 'Josefin Sans Bold';
-    font-size: 2.3vh;
-    margin-top: -15px;
-}
-
 .hire-btn.btn.btn-primary {
-    margin: 0 auto;
     background-color: #FFAC42;
     border-color: #FFAC42;
     border-radius: 8px;
@@ -79,7 +79,5 @@ img.card-img-top.image {
 }
 
 a.hire-btn.btn.btn-primary.luz {
-    margin: 30px auto 50px;
-    background-color: #FFAC42;
-    border-color: #FFAC42;
+    margin: 5px 0 50px;
 }

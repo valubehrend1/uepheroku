@@ -18,7 +18,7 @@ const Productos = () => {
             <Card className='card-container'>
                 <Card.Body>
                     <Card.Img className='image' variant='top' src={require('../Images/rayo.png')} />
-                    <p className='product-title-luz'>{t('title.title')}<br/>{t('title.titleb')}</p>
+                    <p className='product-title-luz bold-type'>{t('title.title')}<br/>{t('title.titleb')}</p>
                     <p className='product-subtitle-luz'>{t('subtitle.subtitle')} <br/>{t('subtitle.subtitle2')}</p>
                     <Card.Text className='block-text-luz'>
                         {t('parrafo.linea1')}<br />

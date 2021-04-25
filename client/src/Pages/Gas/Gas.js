@@ -15,7 +15,7 @@ const Gas = () => {
         <div className="gas" id="gas">
             <Card className='card-container'>
                     <Card.Img className='image gas-img' variant='top' src={require('../Images/fuego.png')} />
-                    <p className='product-title-gas'>{t('title.title')}</p>
+                    <p className='product-title-gas bold-type'>{t('title.title')}</p>
                     <p className='product-subtitle-gas'>{t('subtitle.subtitle')}</p>
                     <Card.Text className='block-text-gas'>
                         {t('parrafo1.linea1')}
