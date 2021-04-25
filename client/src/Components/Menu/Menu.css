@@ -1,5 +1,5 @@
 .navbar-container {
-    background-color:#FFFF;
+    background-color: #FFFF;
     font-family: "JosefinSansSemiBold";
     padding: 20px 0;
 }
@@ -9,88 +9,83 @@
 }
 
 a.navbar-brand {
-  margin-left: 20px; 
-  margin-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 @media (min-width: 1250px) {
-  .mr-auto.navbar-nav a {
-      margin-right: 25px;
+    .mr-auto.navbar-nav a {
+        margin-right: 25px;
     }
-  }
+}
 
 @media (max-width: 1131px) {
-  .mr-auto.navbar-nav a {
-      margin-right: 2px;
-      font-size: 12.5px;
+    .mr-auto.navbar-nav a {
+        margin-right: 2px;
+        font-size: 12.5px;
     }
-  }
+}
 
 .nav-link {
     font-size: 13px;
 }
 
-@media (min-width: 1600px) {
-    .nav-link {
-      font-size: 23px;
-    }
-  }
-
 div.navbar-nav {
-  margin-right: 20px;
-} 
+    margin-right: 20px;
+}
 
 .navbar-container .navbar-light .navbar-nav .nav-link {
     color: #2C272B;
 }
 
 .navbar-container .navbar-light .navbar-nav .nav-link:active {
-    color:#FFAC42;
+    color: #FFAC42;
 }
 
 .navbar-container .navbar-light .navbar-nav .nav-link:focus {
-  color:#FFAC42;
+    color: #FFAC42;
 }
 
 .navbar-container .navbar-light .navbar-nav .nav-link:hover {
     color: #FFAC42;
 }
 
+
 /*--------  BUTTON --------  */
 
 button.navbar-toggler {
-  margin-right: 30px;
+    margin-right: 30px;
 }
 
-.mr-auto.navbar-nav .nav-right.hire-class.nav-link { 
+.mr-auto.navbar-nav .nav-right.hire-class.nav-link {
     border: 1px solid #2C272B;
     border-radius: 8px;
     margin-left: 7px;
 }
 
 .mr-auto.navbar-nav .nav-right.hire-class.nav-link:hover {
-  background-color: #FFAC42;
-  color: #2C272B;
-  border: 1px solid #FFAC42
+    background-color: #FFAC42;
+    color: #2C272B;
+    border: 1px solid #FFAC42
 }
 
 @media (max-width: 1026px) {
-  .mr-auto.navbar-nav .nav-right.hire-class.nav-link {
-     margin: 0;
-    }
-  }
-
-  @media (max-width:991.5px) {
     .mr-auto.navbar-nav .nav-right.hire-class.nav-link {
-     border: none;
-     margin: 0;
+        margin: 0;
     }
+}
 
+@media (max-width:991.5px) {
+    .mr-auto.navbar-nav .nav-right.hire-class.nav-link {
+        border: none;
+        margin: 0;
+    }
     .mr-auto.navbar-nav .nav-right.hire-class.nav-link:hover {
-      background-color: transparent;
-      color: #2C272B;
-      border: none;
+        background-color: transparent;
+        color: #2C272B;
+        border: none;
     }
-  }
+}
 
-  /* --------  END BUTTON --------  */
+
+/* --------  END BUTTON --------  */
