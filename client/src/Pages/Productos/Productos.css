@@ -24,13 +24,19 @@
 }
 
 img.card-img-top.image {
-    width: 15%;
-    margin: 42px 0 30px;
+    width: 115px;
+    margin: 28px 0 30px;
+}
+
+@media (max-width: 600px) {
+    img.card-img-top.image {
+        width: 85px;
+    }
 }
 
 .product-title-luz {
     font-family: 'Josefin Sans Bold';
-    font-size: 2.1rem;
+    font-size: 35px;
 }
 
 .product-subtitle-luz {
