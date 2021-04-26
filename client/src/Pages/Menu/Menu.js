@@ -1,5 +1,7 @@
 import React from 'react';
 
+import logo from '../Images/uepnegro.svg'
+
 import MenuOption from '../../Components/Menu/MenuOptions';
 import { Navbar, Nav } from 'react-bootstrap';
 import '../../Components/Menu/Menu.css'
@@ -17,7 +19,7 @@ const Menu = () => {
                 <Navbar.Brand
                     href="#home"
                     onClick={() => scroller.scrollTo('header', { smooth: true, offset: -150, duration: 1000, })}>
-                    <img src={require('../Images/uepnegro.svg')}
+                    <img src={logo}
                         alt=""
                         width="120" />
                 </Navbar.Brand>
