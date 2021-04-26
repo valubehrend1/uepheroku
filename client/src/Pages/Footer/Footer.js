@@ -31,10 +31,8 @@ const Footer = () => {
                             <li><a href='https://api.whatsapp.com/send?phone=+34697770797&text=Hola!%20Quiero%20contratar%20sus%20servicios!'><img alt=' ' src={require('../Images/whatsapp.png')} /></a></li>
                         </ul>
                     </div>
-                    <div className='col-md-3 col-sm-6'>
+                    <div className='col-md-3 col-sm-6 politicas'>
                         <ul className='list-unstyled'>
-                            <li className='contact-list'></li>
-                            <li><br /> </li>
                             <li className='black-list'><a rel="nofollow" href={AvisoLegal} target="_blank">{t('policy.warn')}</a></li>
                             <li className='black-list'><a rel="nofollow" href={PoliticaDeDatos} target="_blank">{t('policy.private')}</a></li>
                             <li className='black-list'><a rel="nofollow" href={PoliticaDeCookies} target="_blank">{t('policy.cookies')}</a></li>

@@ -15,20 +15,20 @@ const EnergiaSolar = () => {
             <Card className='card-container'>
                 <Card.Body id='card-body'>
                     <Card.Img className='image energia-img' variant='top' src={require('../Images/energia.png')} />
-                    <p className='product-title-energia'>{t('title.title')}</p>
+                    <p className='product-title-energia bold-type'>{t('title.title')}</p>
                     <p className='product-subtitle-energia'>{t('subtitle.subtitle')}</p>
                     <Card.Text className='block-text-energia'>
                         {t('parrafo1.linea1')}<br />
                         {t('parrafo1.linea2')}<br />
                         {t('parrafo1.linea3')}
                     </Card.Text>
-                    <Card.Text className='block-text-energia-black'>
+                    <Card.Text className='block-text-energia-black bold-type'>
                         {t('parrafo2.linea1')}<br />
                         {t('parrafo2.linea2')}<br />
                         {t('parrafo2.linea3')}
                     </Card.Text>
                 </Card.Body>
-                <Button href='#form' className='hire-btn energia btn-custom' onClick={() => scroller.scrollTo('form', { smooth: true, offset: -100, duration: 1100, })}>{t('button.title')}</Button>
+                <Button href='#form' className='hire-btn energia btn-custom' onClick={() => scroller.scrollTo('form', { smooth: true, offset: -155, duration: 1100, })}>{t('button.title')}</Button>
             </Card>
 
         </div>

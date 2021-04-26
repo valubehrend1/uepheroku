@@ -13,40 +13,37 @@
 
 .product-title-colabora {
     color: white;
-    font-size: 2.1rem;
-    font-family: 'Josefin Sans Bold';
-    margin-top: 50px;
+    font-size: 30px;
+    margin: 0px;
+    margin-top: 28px;
 }
 
 .product-subtitle-colabora {
     color: white;
-    font-size: 1.9rem;
+    font-size: 30px;
     font-family: 'Josefin Sans Light';
-    margin-top: -25px;
+    margin: 0px;
+    line-height: 1.3;
 }
 
-p.block-text-colabora.card-text, .block-text-colabora2 {
+p.block-text-colabora.card-text,
+.block-text-colabora2 {
     color: white;
-    font-size: 2.3vh;
     font-family: 'Josefin Sans Light';
-    margin-top: 5px;
-}
-
-p.block-text-colabora2.card-text {
-    padding-top: 20px;
+    font-size: 17px;
+    margin-top: 20px;
 }
 
 span.block-text-colabora.salto {
     display: block;
-    margin: 0 0 10px 0;
+    margin: 0 0 15px 0;
 }
 
 .product-subtitle-colabora-small {
     color: #FFAC42;
-    font-size: 2vh;
+    font-size: 17px;
     font-family: 'Josefin Sans Bold';
 }
-
 
 a.contact-btn.btn.btn-primary {
     margin: 30px auto 50px;

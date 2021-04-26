@@ -1,23 +1,25 @@
 .form-container {
-     margin-top: 30px;
-     display: grid;
-     justify-content: center;
-     align-items: center;
+    margin-top: 30px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
 
 .product-title-form {
     color: #2C272B;
-    font-size: 2.3rem;
-    font-family: 'Josefin Sans Bold';
+    font-size: 30px;
+    margin-top: 28px;
+    margin-bottom: 0px;
     text-align: center;
-    margin-top: 70px;
 }
 
 .product-subtitle-form {
-    font-size: 1.7rem;
+    color: #2C272B;
+    font-size: 30px;
     font-family: 'Josefin Sans Light';
+    margin: 0px;
+    line-height: 1.3;
     text-align: center;
-    margin-top: -15px;
 }
 
 input.form-control {
@@ -31,16 +33,14 @@ input.form-control:focus {
     box-shadow: 0 0 0 0.2rem #eec897;
 }
 
-
 input.form-control:active {
     background-color: #FFAC42;
     border-color: #FFAC42;
     box-shadow: 0 0 0 0.2rem #eec897;
 }
 
-
 input:-webkit-autofill,
-input:-webkit-autofill:hover, 
+input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
 textarea:-webkit-autofill,
 textarea:-webkit-autofill:hover,
@@ -48,9 +48,8 @@ textarea:-webkit-autofill:focus,
 select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
-  border: 1px solid #FFAC42;
-  -webkit-text-fill-color: #2C272B;
-  transition: background-color 5000s ease-in-out 0s;
+    border: 1px solid #FFAC42;
+    transition: background-color 5000s ease-in-out 0s;
 }
 
 textarea.form-control {
@@ -61,18 +60,18 @@ textarea.form-control:focus {
     color: black;
 }
 
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
-  -webkit-appearance: none; 
-  margin: 0; 
-}
-
-div#form.container {
-    margin-top: -25px;
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 div.form-group.col {
-    padding-top: 17px;
+    padding-top: 40px;
+}
+
+div.form-group {
+    margin: 0;
 }
 
 #formGridState {
@@ -83,7 +82,6 @@ div.form-group.col {
 
 #form-options {
     background-color: #FFFF;
-    margin-top: 40px;
 }
 
 select#formGridState.form-control {
@@ -93,7 +91,7 @@ select#formGridState.form-control {
 
 select:focus {
     box-shadow: none;
-  }
+}
 
 textarea#formBasicasunto.form-control {
     background-color: #FFAC42;
@@ -126,6 +124,7 @@ div.form-check {
 .termsConditions {
     display: inline;
     font-family: 'Josefin Sans Light';
+    padding-top: 15px;
 }
 
 .termsConditions a {
@@ -137,11 +136,13 @@ div.form-check {
     color: #FFAC42;
     text-decoration: none;
 }
+
 .sbm-btn.btn.btn-primary {
     background-color: #FFAC42;
-    border-color:  #FFAC42;
+    border-color: #FFAC42;
     color: #2C272B;
-    margin-bottom: 40px;
+    margin-top: 30px;
+    margin-bottom: 50px;
     font-family: 'Josefin Sans Bold';
 }
 
