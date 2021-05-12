@@ -1,8 +1,8 @@
 import React from 'react';
 
-import logo from '../Images/uepnegro.svg'
 
 import MenuOption from '../../Components/Menu/MenuOptions';
+import SvgComponent from '../../Components/Svg/Svg'
 import { Navbar, Nav } from 'react-bootstrap';
 import '../../Components/Menu/Menu.css'
 import '../Productos/Productos.js'
@@ -19,9 +19,9 @@ const Menu = () => {
                 <Navbar.Brand
                     href="#home"
                     onClick={() => scroller.scrollTo('header', { smooth: true, offset: -150, duration: 1000, })}>
-                    <img src={logo}
-                        alt=""
-                        width="120px" />
+                    <SvgComponent
+                        className = "svg-brand"
+                        alt=""/>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav " />
                 <Navbar.Collapse id="responsive-navbar-nav">
