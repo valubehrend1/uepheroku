@@ -1,12 +1,10 @@
 {
     "title": {
-        "title": "ÜBER UNS"
+        "title": "ÜBER UNS WIR SIND UEP ENERGY SOLUTIONS "
     },
 
     "subtitle": {
-        "subtitle": "WIR SIND " ,
-        "subtitle2": " UEP ENERGY SOLUTIONS,",
-        "subtitle3": "IHR ENERGIEPARTNER"
+        "subtitle": "HR ENERGIEPARTNER"
     },
 
     "parrafo1": {
@@ -29,14 +27,14 @@
         "linea3": "Versicherungsmakler, Immobilienverwalter, Telekommunikationsunternehmen, Immobilienmakler und",
         "linea4": "Reisebüros, um einen engen und professionellen Service zu bieten."
     },
-    
+
     "subtitle-about": {
         "subtitle": "UNSERE AUFGABE?"
     },
-    
+
     "parrafo4": {
         "linea1": "Wir minimieren die Energiekosten, ",
-        "linea1b":"die durch Ihre Produktion entstehen.",
+        "linea1b": "die durch Ihre Produktion entstehen.",
         "linea2": "Wir durchsuchen den Markt nach den ",
         "linea2b": "günstigsten Tarifen,",
         "linea2c": "",
@@ -58,7 +56,7 @@
         "linea2": "und unterbreiten Ihnen ein Angebot mit einem der vielen Lieferanten, mit denen wir",
         "linea3": "zusammenarbeiten, und versuchen, Ihren aktuellen Preis pro Kilowatt zu verbessern."
     },
-    
+
     "parrafo6": {
         "linea1": "Als unser Kunde erhalten Sie die folgenden Leistungen:",
         "linea2": "- Überprüfung von Ansprüchen und Rechnungen -",
@@ -66,7 +64,7 @@
         "linea4": "- Leistungsoptimierung durch Ablesen von Maximetern -",
         "linea5": "- Jede Änderung des Eigentümerstatus, der Versorgung, des Bankkontos, etc. -",
         "linea6": "- Wir werden die Preise jährlich überprüfen, um Ihnen immer das beste Marktangebot anbieten zu können -"
-    },  
+    },
 
     "parrafo7": {
         "linea1": "Außerdem können wir Ihr Unternehmen energieeffizienter machen:",
@@ -74,23 +72,23 @@
         "linea3": "- Kondensatorbatterien für Blindleistung -",
         "linea4": "- Zähler mit Fernablesung -",
         "linea5": "- Photovoltaikmodule -"
-    }, 
-    
+    },
+
     "subtitle-about3": {
         "subtitle": "MUSS ICH FÜR DEN DIENST BEZAHLEN?"
     },
-    
+
     "parrafo8": {
         "linea1": "Nein. Der Dienst ist völlig kostenlos.",
-        "linea2": "Wir erhalten eine Provision für die Vermittlung, die sich aus den verschiedenen Vereinbarungen",
-        "linea3": "zwischen uns und dem jeweiligen Unternehmen ergibt, und Sie beauftragen das neue",
-        "linea4": "que nosotros después de realizar un minucioso estudio le proponemos.",
+        "linea2": "Wir erhalten eine Provision für die Vermittlung,",
+        "linea3": "die sich aus den verschiedenen Vereinbarungenzwischen uns und",
+        "linea4": "dem jeweiligen Unternehmen ergibt, und Sie beauftragen das neue",
         "linea5": "",
-        "linea5b": "Unternehmen, das wir Ihnen nach einer gründlichen Untersuchung vorschlagen. Wir arbeiten ",
+        "linea5b": "Unternehmen, das wir Ihnen nach einer gründlichen Untersuchung vorschlagen. Wir arbeiten",
         "linea6": "wie ein Versicherungsmakler, aber auf dem Energiemarkt."
     },
-    
+
     "footer-text": {
         "title": "Sie finden uns bald neben Endesa in der Calle Aragon in Palma."
-    } 
+    }
 }

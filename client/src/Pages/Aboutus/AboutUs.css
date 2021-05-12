@@ -22,15 +22,8 @@
     color: #2C272B;
     font-size: 30px;
     font-family: 'Josefin Sans Light';
-    margin: 0px;
+    margin: 0px 0px 30px;
     line-height: 1.3;
-}
-
-p.product-subtitle-about.second-sub {
-    display: inline-block;
-    color: #2C272B;
-    font-family: 'Josefin Sans Bold';
-    font-size: 18px;
 }
 
 p.block-text-about.card-text,

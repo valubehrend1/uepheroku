@@ -4,9 +4,7 @@
     },
 
     "subtitle": {
-        "subtitle": "YOUR ENERGY PARTNER",
-        "subtitle2": "",
-        "subtitle3": ""
+        "subtitle": "YOUR ENERGY PARTNER"
     },
 
     "parrafo1": {
@@ -29,14 +27,14 @@
         "linea3": "brokers, property administrators, telecommunications companies, real estate agents",
         "linea4": "and travel agencies, among others, to provide a close and professional service."
     },
-    
+
     "subtitle-about": {
         "subtitle": "WHAT DO WE DO?"
     },
-    
+
     "parrafo4": {
         "linea1": "We minimize the energy costs ",
-        "linea1b":"derived from your production by searching the market",
+        "linea1b": "derived from your production by searching the market",
         "linea2": "for ",
         "linea2b": "lowest tariffs that best suit your business. ",
         "linea2c": "We offer you a ",
@@ -58,7 +56,7 @@
         "linea2": "and present you with an offer from one of the many energy suppliers we work with,",
         "linea3": "trying to improve your current price per kilowatt."
     },
-    
+
     "parrafo6": {
         "linea1": "As our customer, you will receive the following services:",
         "linea2": "- Claiming and Reviewing Bills -",
@@ -66,7 +64,7 @@
         "linea4": "- Optimisation of power by means of reading of maximeters -",
         "linea5": "- Any change of ownership, supply, bank, etc. -",
         "linea6": "- We will annually review prices to always offer you the best offer on the market -"
-    },  
+    },
 
     "parrafo7": {
         "linea1": "We can also make your business more energy efficient:",
@@ -74,12 +72,12 @@
         "linea3": " Capacitor Batteries for reactive energy -",
         "linea4": "- Remote metering - ",
         "linea5": "- Photovoltaic panels -"
-    }, 
-    
+    },
+
     "subtitle-about3": {
         "subtitle": "DO I HAVE TO PAY FOR THE SERVICE?"
     },
-    
+
     "parrafo8": {
         "linea1": "No. The service is free of charge.",
         "linea2": "We charge a commission for the intermediation of the company, as a result of the different",
@@ -89,8 +87,8 @@
         "linea5b": "",
         "linea6": ""
     },
-    
+
     "footer-text": {
         "title": "You will soon find us next to Endesa in Calle Aragon in Palma."
-    } 
+    }
 }

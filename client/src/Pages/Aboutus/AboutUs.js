@@ -13,8 +13,7 @@ const AboutUs = () => {
             <Card className='card-container'>
                 <Card.Body id='card-body'>
                     <p className='product-title-about bold-type'>{t('title.title')}</p>
-                    <p className='product-subtitle-about first-sub'>{t('subtitle.subtitle')}</p><p className='product-subtitle-about second-sub'>{t('subtitle.subtitle2')}</p>
-                    <p className='product-subtitle-about'>{t('subtitle.subtitle3')}</p>
+                    <p className='product-subtitle-about first-sub'>{t('subtitle.subtitle')}</p>
                     <Card.Text className='block-text-about'>
                         {t('parrafo1.linea1')} <br />
                         {t('parrafo1.linea2')}<br />
