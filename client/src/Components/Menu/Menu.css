@@ -20,12 +20,6 @@ a.navbar-brand {
     }
 }
 
-@media (max-width: 500px) {
-    .svg-brand {
-        width: 100px;
-    }
-}
-
 .nav-link {
     font-size: 13px;
 }
