@@ -2,10 +2,10 @@ import React from 'react';
 
 
 import MenuOption from '../../Components/Menu/MenuOptions';
-import SvgComponent from '../../Components/Svg/Svg'
 import { Navbar, Nav } from 'react-bootstrap';
 import '../../Components/Menu/Menu.css'
 import '../Productos/Productos.js'
+import logo from '../Images/logo.png'
 
 import { useTranslation } from 'react-i18next';
 
@@ -19,9 +19,7 @@ const Menu = () => {
                 <Navbar.Brand
                     href="#home"
                     onClick={() => scroller.scrollTo('header', { smooth: true, offset: -150, duration: 1000, })}>
-                    <SvgComponent
-                        className = "svg-brand"
-                        alt=""/>
+                    <img src={logo} width= "120px" alt="" className= "img-brand"/>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav " />
                 <Navbar.Collapse id="responsive-navbar-nav">
