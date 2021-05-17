@@ -19,7 +19,7 @@ const Menu = () => {
                 <Navbar.Brand
                     href="#home"
                     onClick={() => scroller.scrollTo('header', { smooth: true, offset: -150, duration: 1000, })}>
-                    <img src={logo} width= "120px" alt="" className= "img-brand"/>
+                    <img src={logo} width= "120px" alt=""/>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav " />
                 <Navbar.Collapse id="responsive-navbar-nav">

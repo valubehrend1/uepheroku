@@ -20,12 +20,6 @@ a.navbar-brand {
     }
 }
 
-@media (max-width: 500px) {
-    .img-brand {
-        width: 100px;
-    }
-}
-
 .nav-link {
     font-size: 13px;
 }
