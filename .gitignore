@@ -1,5 +1,4 @@
 node_modules/
 client/build/
-.env
 .DS_Store
 .vscode

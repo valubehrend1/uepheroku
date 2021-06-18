@@ -15,7 +15,7 @@ module.exports = {
         console.log('Data: ', req.body)
 
         const transporter = nodeMailer.createTransport({
-            host: process.env.NODEMAILER_HOST,
+            host: "mail.privateemail.com",
             port: 465,
             secure: true,
             auth: {
