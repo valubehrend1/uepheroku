@@ -1,6 +1,5 @@
 const express = require('express');
 const app = express();
-require('dotenv').config
 var secure = require('ssl-express-www');
 
 const path = require('path');
