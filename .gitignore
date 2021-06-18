@@ -1,5 +1,5 @@
 node_modules/
-controllers/userControllers.js
 client/build/
+.env
 .DS_Store
 .vscode

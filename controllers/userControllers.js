@@ -1,8 +1,9 @@
 const nodeMailer = require('nodemailer');
+require('dotenv').config()
 
 module.exports = {
 
-    email: function (req, res, next) {
+    email: function(req, res, next) {
         const user = {
             nameForm: req.body.nameForm,
             email: req.body.email,
@@ -18,8 +19,8 @@ module.exports = {
             port: 465,
             secure: true,
             auth: {
-                user: 'info@uep-es.com',
-                pass: 'Ff963852741'
+                user: process.env.NODEMAILER_EMAIL,
+                pass: process.env.NODEMAILER_PASS
             }
         })
 
@@ -49,12 +50,10 @@ module.exports = {
             replyTo: user.email,
             subject: user.option,
             html: fieldheader,
-            attachments: req.file ? [
-                {
-                    filename: req.file.originalname,
-                    content: Buffer.alloc(req.file.size, req.file.buffer, req.file.enconding)
-                }
-            ] : null
+            attachments: req.file ? [{
+                filename: req.file.originalname,
+                content: Buffer.alloc(req.file.size, req.file.buffer, req.file.enconding)
+            }] : null
         };
 
         transporter.sendMail(message)
